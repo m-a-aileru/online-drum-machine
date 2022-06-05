@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drum Machine App - by Matthew Aileru</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" >
+</head>
+
+<body onkeydown="inputReceipt(event)">	
+	<header>
+		<h1>Online Drum Machine</h1>
+	</header>
+
+	<div class="pad-container">
+		<div class="keypads" id="bass" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="bassdrum">
+				<source src="sounds/bassdrum.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">1</span>
+			<p class="drum-sound">Bass</p>
+		</div>
+		
+		<div class="keypads" id="snare" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="snare">
+				<source src="sounds/snare.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">2</span>
+			<p class="drum-sound">Snare</p>
+		</div>
+		
+		<div class="keypads" id="tom" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="tom">
+				<source src="sounds/tom.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">3</span>
+			<p class="drum-sound">Tom</p>
+		</div>
+		
+		<div class="keypads" id="hihat" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="hihat">
+				<source src="sounds/hihat.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">4</span>
+			<p class="drum-sound">Hi-Hat</p>
+		</div>
+		
+		<div class="keypads" id="ride" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="ride">
+				<source src="sounds/ride.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">5</span>
+			<p class="drum-sound">Ride</p>
+		</div>
+		
+		<div class="keypads" id="crash" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="crash">
+				<source src="sounds/crash.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">6</span>
+			<p class="drum-sound">Crash</p>
+		</div>
+	</div>
+	
+	<footer>
+		<p id="signature">Created, "Designed" and Developed by <a href="http://matthewaileru.altervista.org" target="_blank">Matthew Aileru</a></p>
+	</footer>
+	
+	<script src="script.js" ></script>
+</body>
+</html>
