@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drum Machine App - by Matthew Aileru</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" >
+</head>
+
+<body onkeydown="inputReceipt(event)">	
+	<header>
+		<h1>Online Drum Machine</h1>
+	</header>
+
+	<div class="pad-container">
+		<div class="keypads" id="kick" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="kickdrum">
+				<source src="sounds/kick.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">1</span>
+			<p class="drum-sound">Bass/Kick</p>
+		</div>
+		
+		<div class="keypads" id="snare" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="snare-drum">
+				<source src="sounds/snare.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">2</span>
+			<p class="drum-sound">Snare</p>
+		</div>
+		
+		<div class="keypads" id="high-tom" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="high-tom-drum">
+				<source src="sounds/high-tom.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">3</span>
+			<p class="drum-sound">High Tom</p>
+		</div>
+		
+		<div class="keypads" id="mid-tom" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="mid-tom-drum">
+				<source src="sounds/mid-tom.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">4</span>
+			<p class="drum-sound">Mid Tom</p>
+		</div>
+
+		<div class="keypads" id="low-tom" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="low-tom-drum">
+				<source src="sounds/low-tom.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">5</span>
+			<p class="drum-sound">Low/Floor Tom</p>
+		</div>
+
+		<div class="keypads" id="hi-hat" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="hihat-cymbal">
+				<source src="sounds/hi-hat.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">6</span>
+			<p class="drum-sound">Hi-Hat</p>
+		</div>
+		
+		<div class="keypads" id="ride" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="ride-cymbal">
+				<source src="sounds/ride.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">7</span>
+			<p class="drum-sound">Ride</p>
+		</div>
+		
+		<div class="keypads" id="crash" onclick="clickAnimation(this)" onmouseover="addHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+			<audio id="crash-cymbal">
+				<source src="sounds/crash.wav" type="audio/wav">
+				Your browser does not support the audio element.
+			</audio>
+			<span class="key">8</span>
+			<p class="drum-sound">Crash</p>
+		</div>
+	</div>
+	
+	<footer>
+		<p id="signature">Created, "Designed" and Developed by <a href="http://matthewaileru.altervista.org" target="_blank">Matthew Aileru</a></p>
+	</footer>
+	
+	<script src="script.js" ></script>
+</body>
+</html>
