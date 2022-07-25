@@ -4,7 +4,7 @@ It speaks for itself. It is basically an online drum pad that contains a few bas
 
 ## Installation
 
-It is currently an online web app, so no installation needed. Just go to (https://tinyurl.com/online-drum) and have fun.
+It is currently an online web app, so no installation needed. Just go to (https://tiny.one/online-drum) and have fun.
 
 ## Usage
 
