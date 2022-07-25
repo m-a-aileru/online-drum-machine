@@ -31,7 +31,7 @@ Press '8' for the crash cymbal.
 This project is currently in it's early stages and is somewhat usable but there is definitely room for a lot more improvement. Future ideas are listed below:
 
 - Ability for users to customise elements of the interface, such as the colour scheme, layout of the pads, etc
-- Room for users to change a load in different drum sounds and maybe even drum kits
+- Room for users to change or load in different drum sounds and maybe even drum kits
 - Ability for users to record their own drum loops
 
 ## Contributing
